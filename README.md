@@ -20,4 +20,8 @@ Around a fifth of the total data (around 500 images) was used as the total size 
 * `masks_val.zip` [(validation masks)](https://drive.google.com/open?id=149nbJpCK6Ezlg7HMxEIT-vJOwV-9iD0U)
 
 # Output of the Model
-The predictions of the model are not perfect. I am working on training with another model architecture, Tiramisu to get better predictions.
+The predictions of the model are not perfect. I am working on training with another model architecture, Tiramisu to get better predictions. Here is a sample:
+* Original Image: <br/><img src="results/img_15.png"><br/>
+* Ground Truth: <br/><img src="results/ground_truth_15.png"><br/>
+* Predicted mask: <br/><img src="results/preds_15.png"><br/>
+* Segmented person: <br/><img src="results/final_out_15.png"><br/>
